@@ -1,0 +1,16 @@
+SILVER STACKER PRE-SALE PORTAL v1.0.0
+
+Contents
+  silver-stacker-portal-plugin.zip  Upload in WordPress: Plugins > Add New > Upload Plugin
+  silver-stacker-theme.zip          Upload in WordPress: Appearance > Themes > Add New > Upload Theme
+  silver-stacker-portal/            Same plugin, unzipped (source)
+  silver-stacker/                   Same theme, unzipped (source)
+  silver-stacker-portal/docs/       ARCHITECTURE, IMPLEMENTATION_NOTES, DEPLOYMENT (go-live checklist), TESTING
+  screenshots/                      Customer portal, mobile and staff console screens (demo data)
+
+Quick start (staging first)
+  1. Settings > Permalinks > "Post name".
+  2. Install + activate the theme, then the plugin.
+  3. Follow silver-stacker-portal/docs/DEPLOYMENT.md (private uploads rule, encryption key, cron, SMTP, 2FA).
+  4. Silver Stacker > Settings: review every "Unconfirmed" item.
+  5. Silver Stacker > Integrations: connect QuickBooks (sandbox first) and optionally Google Sheets.
